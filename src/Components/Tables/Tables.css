@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tables-window{
+    margin-top: 60px;
+}
+.tables{
+    margin-top: 30px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.order{
+    min-width: 250px;
+}
+
+/* .deleteOrder{
+    display: inline;
+} */

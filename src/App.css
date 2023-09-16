@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  /* text-align: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+
+body{
+  /* background-color: gray; */
+  background-image: url(https://imgs.search.brave.com/rIqXeljI1fXaDcWBuib7ljCIIJJ2egwXNCUHycxpCnA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/MzE4NzkyNy92ZWN0/b3IvY29va2luZy1m/b29kLWFuZC12ZWdl/dGFibGVzLWJhY2tn/cm91bmQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPXFDOUJQ/djVUTHRZRWgtX215/WWFjT1pTdWdBRVV4/NFNfdXE1czZIMzMt/c3M9);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
