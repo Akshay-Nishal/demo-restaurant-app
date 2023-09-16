@@ -7,7 +7,9 @@ function Tables() {
 
   return (
     <div className='tables-window' >
+        <center>
         <h2>Tables</h2>
+        </center>
         <div className='tables' >
             <Table
                 id='table1'

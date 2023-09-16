@@ -13,15 +13,16 @@ function Table(props) {
         orderCtx.setOrders(x)
     }
   return (
-    <div>
+    <div className='table'>
+        <center>
         <h3>{props.value}</h3>
+        </center>
         { orderCtx.Orders.map((order) => {
             if(order.table===tableID){
                 return(
                     <div key={order.orderID} className='order'>
-                        <p>
-                            {order.dish}, Rs. {order.price} <button className='deleteOrder' onClick={()=>{deleteOrder(order.orderID)}}>Delete</button>
-                        </p>
+                        <p>{order.dish}, Rs. {order.price}</p>
+                        <button className='deleteOrder' onClick={()=>{deleteOrder(order.orderID)}}>Delete</button>
                     </div>
                 )
             }
